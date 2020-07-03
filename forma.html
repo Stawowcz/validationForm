@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<title>HTML Tutorial</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css/">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kuba Portfolio</title>
+</head>
+
+<body>
+<div class = "container-form" >
+    <div class = "contact_title">
+        <h2>Contact me</h2>
+    </div>
+    <form class = "form" id = "form">
+        <div class= "radio-inline">
+            <div class="radio" id="uniform_id_gender">
+                <span>
+                    <label for="id_gender2"></label><input type="radio" name="id_gender" id="id_gender1">Mr.</label>
+                    <label for="id_gender1"></label><input type="radio" name="id_gender" id="id_gender2">Mrs.</label>
+                </span>
+            </div>
+        </div>
+        <div class="form-control">
+            <label for="fname">First name:</label>
+            <sup>*</sup>
+            <input type="text" id="firstname" name="firstname" value="">
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="fname">Last name:</label>
+            <sup>*</sup>
+            <input type="text" id="lastname" name="lastname" value="">
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="fname">Username:</label>
+            <sup>*</sup>
+            <input type="text" placeholder = "Stawo" id="username" name="username" value="">
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="email">Email:</label>
+            <sup>*</sup>
+            <input type="email" placeholder = "stawo@onet.eu" id="email" name="email" value="">
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="password">Password:</label>
+            <sup>*</sup>
+            <input type="password" id="password" name="password" value="">
+            <span class="five-info">(Five characters minimum)</span>
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="lname">Confirm Password:</label>
+            <sup>*</sup>
+            <input type="password" id="password2" name="password2" value="">
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="date">Date of birth:</label>
+            <div class="selectors">
+                <div class="selector" id="selector-days">
+                        <select name="days" id="days">
+                            <option value="-">-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <small>Error messege</small>
+                </div>
+                <div class="selector" id="selector-months">
+                        <select name="months" id="months">
+                            <option value="-">-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <small>Error messege</small>
+                </div>
+                <div class="selector" id="selector-year">
+                    <select name="years" id="years">
+                        <option value="-">-</option>
+                        <option value="1">2010</option>
+                        <option value="2">2011</option>
+                        <option value="3">2012</option>
+                        <option value="4">2013</option>
+                        <option value="5">2015</option>
+                        <option value="6">2016</option>
+                        <option value="7">2017</option>
+                        <option value="8">2018</option>
+                        <option value="9">2020</option>
+                    </select>
+                    <small>Error messege</small>
+                </div>
+            </div>
+        </div>
+        <div class="form-control">
+            <div class="checkbox" id = "checkbox1">
+                <div class="checker" id="checker1">
+                    <span>
+                        <input type="checkbox" id="check1" name="check1" value="">
+                    </span>
+                </div>
+                <div class="newsletter">
+                    <label for="newsletter">Sign up for our newsletter!</label>
+                </div>
+            </div>
+            <div class="checkbox" id = "checkbox2">
+                <div class="checker" id="checker2">
+                    <span>
+                        <input type="checkbox" id="check2" name="check2" value="">
+                    </span>
+                </div>
+                <div class="specialofferts">
+                    <label for="newsletter">Receive special offers from our partners!</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-control">
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" value="">
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="adress">Address:</label>
+            <sup>*</sup>
+            <input type="text" id="address" name="address" value="">
+            <div class="street-address-text">
+                <span class="info">Street address, P.O. Box, Company name, etc.</span>
+            </div>
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="adress">Address line2:</label>
+            <input type="text" id="addressline" name="addressline" value="">
+            <div class="apartment-text">
+                <span class="info line2">Apartment, suite, unit, building, floor, etc...</span>
+            </div>
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="date">Country:</label>
+            <div class="selector-country">
+                <div class="selector" id="country-selector-id">
+                        <select name="countryid" id="countryid">
+                            <option value="-">-</option>
+                            <option value="1">Poland</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+        <div class="form-control">
+            <label for="company">Zip/Postal Code</label>
+            <sup>*</sup>
+            <input type="text" id="zipid" name="zipname" value="">
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="phone">Phone:</label>
+            <sup>*</sup>
+            <input type="text" id="phone" name="phone" value="">
+            <div class="form-register">
+                <span>You must register at least one phone number.</span>
+            </div>
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        <div class="form-control">
+            <label for="company">Additional info:</label>
+            <textarea name="addinfo" id="addinfo" cols="22" rows="5"></textarea><br>
+            <i class='fa fa-check-circle'></i>
+            <i class ="fa fa-exclamation-circle"></i>
+            <small>Error messege</small>
+        </div>
+        
+        <button>Submit</button>
+        </form>
+</div>
+</body>
+<script src="brain.js">
+</script>
